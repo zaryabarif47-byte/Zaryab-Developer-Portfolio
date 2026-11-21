@@ -144,20 +144,49 @@
         <div class="contact-grid">
           <div class="contact-details reveal">
             <a class="contact-item" href="mailto:zaryabarif47@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>zaryabarif47@gmail.com</strong></span><span class="contact-arrow">↗</span></a>
-            <a class="contact-item" href="tel:+923146510087"><span class="contact-icon">⌕</span><span><small>PHONE / WHATSAPP</small><strong>+92 314 6510087</strong></span><span class="contact-arrow">↗</span></a>
-            <a class="contact-item" href="https://www.linkedin.com/in/zaryab-arif-a4a70a3a6" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Connect professionally</strong></span><span class="contact-arrow">↗</span></a>
+            <a class="contact-item" href="https://wa.me/923146510087" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌕</span><span><small>WHATSAPP</small><strong>+92 314 6510087</strong></span><span class="contact-arrow">↗</span></a>            <a class="contact-item" href="https://www.linkedin.com/in/zaryab-arif-a4a70a3a6" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Connect professionally</strong></span><span class="contact-arrow">↗</span></a>
             <a class="contact-item" href="https://github.com/zaryabarif47-byte" target="_blank" rel="noopener noreferrer"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>Explore my code</strong></span><span class="contact-arrow">↗</span></a>
             <div class="response-note"><span class="status-dot"></span> Response time: usually within 1–2 business days</div>
           </div>
-          <form class="contact-form reveal" id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
-            <div class="form-row"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Name"></div>
-            <div class="form-row"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
-            <div class="form-row"><label for="subject">What can I help with?</label><select id="subject" name="subject" required><option value="" disabled selected>Select a topic</option><option>Website development</option><option>Mobile app development</option><option>Bug fixing / UI improvements</option><option>Online tutoring</option><option>Internship / Collaboration</option><option>Other</option></select></div>
-            <div class="form-row"><label for="message">Your message</label><textarea id="message" name="message" rows="4" required placeholder="Tell me a little about your idea..."></textarea></div>
-            <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
-            <button class="button button-primary form-submit" type="submit">Send Message <span>↗</span></button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite">The form needs your Formspree endpoint before it can accept submissions.</p>
-          </form>
+          
+<form class="contact-form reveal" id="contact-form">
+    <div class="form-row">
+        <label for="name">Your name</label>
+        <input id="name" name="name" autocomplete="name" required placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+    </div>
+
+    <div class="form-row">
+        <label for="subject">What can I help with?</label>
+        <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a topic</option>
+            <option>Website development</option>
+            <option>Mobile app development</option>
+            <option>Bug fixing / UI improvements</option>
+            <option>Online tutoring</option>
+            <option>Internship / Collaboration</option>
+            <option>Other</option>
+        </select>
+    </div>
+
+    <div class="form-row">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Tell me a little about your idea..."></textarea>
+    </div>
+
+    <button class="button button-primary form-submit" type="submit">
+        Send Message <span>↗</span>
+    </button>
+
+    <p class="form-status" id="form-status" role="status" aria-live="polite">
+        Your message will be prepared in WhatsApp.
+    </p>
+</form>
+
         </div>
       </div>
     </section>
