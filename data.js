@@ -83,7 +83,7 @@ featured: true
     {
       role: "Web Developer",
       organization: "Exytex Technologies",
-      type: "Employment type and dates to be confirmed",
+      type: "Full-time job (in 2026)",
       description: "Building and maintaining PHP-based SEO service pages, improving responsive layouts, implementing interactions and animations, and resolving front-end issues."
     },
     {
@@ -95,7 +95,7 @@ featured: true
     {
       role: "Teacher",
       organization: "Islamia Model College, AJK",
-      type: "Dates to be confirmed",
+      type: "Full-time job (in 2025)",
       description: "Classroom teaching experience in Physics, Computer Science and other subjects for Class 9 and Class 12 students."
     }
   ],
